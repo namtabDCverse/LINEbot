@@ -52,7 +52,7 @@ def handle_message(event):
 
     elif msg in ['hi','Hi','你好']:
         r = 'hi'
-    elif msg == ['謝謝','txs']:
+    elif msg in ['謝謝','txs']:
         r = '不客氣！'
     line_bot_api.reply_message(
         event.reply_token,
