@@ -1,6 +1,3 @@
-#web_app
-#flask,django都是架設伺服器用，其中flask規模小(app用),django規模大(網頁用)
-
 from flask import Flask, request, abort
 
 from linebot import (
